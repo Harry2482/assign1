@@ -1,3 +1,18 @@
+# TL;DR
+```
+git remote -v
+git branch
+git checkout -b updated
+git status
+-> edit Readme.md and create temo.txt
+git add README.md temp.txt
+git commit
+git log
+git push -u origin updated
+git push
+-> create pull req.
+```
+
 # Assignment 1: Git and GitHub Basics #
 
 The purpose of this assigmment is to give you a basic working knowledge of `git` and [GitHub](https://github.com/), especially as they relate to code reviews.
