@@ -152,6 +152,32 @@ If you run `git branch` again, you should see the following:
 
 Now there are two branches (`master` and `updated`), and the `*` denotes that you're on the `updated` branch.
 
+The git checkout command is used to manage your repository; most commonly used to switch between branches in the repo.
+You can learn additional features of this command, including what the `-b` flag did, by running:
+
+```console 
+git checkout -help
+```
+
+Try switching back to the `master` branch, using the following command:
+
+```console
+git checkout master
+```
+
+You should see the following:
+
+```
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+```
+
+For now, you can ignore the second sentence of the response, as it is out of the scope of this assignment.
+You can confirm that this command switched your branches by running `git branch` again.
+
+Before proceeding to the next step of this assignment, you should switch back to the `updated` branch.
+Hopefully, you are now comfortable with the most common use case of `git checkout`. 
+
 ### Step 5: Improve this Text ###
 
 Make an edit to this file (`README.md`), which is in [Markdown](https://en.wikipedia.org/wiki/Markdown) (specifically [GitHub-flavored Markdown](https://github.github.com/gfm/)) format.
