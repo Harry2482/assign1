@@ -21,7 +21,7 @@ If you already have an account, you can use your existing account.
 
 ### Step 1: Fork this Repository ###
 
-Go to the [main repository webpage](https://github.com/CSUN-COMP587-F18/assign1) for this repository.
+Go to [Harry2482 Github Page](https://github.com/Harry2482/assign1) for this repository.
 [Fork](https://guides.github.com/activities/forking/) this repository over to **your own account**, using the button circled below:
 ![fork_image](readme_files/fork.png)
 
@@ -32,12 +32,24 @@ We'll come back to this in a bit.
 
 ### Step 2: Clone your Fork ###
 
-> The remainder of these steps assume you're using the `git` command on the command-line.
-> On Linux, this should be available through your package manager if it isn't already installed.
-> On Mac, `git` is bundled with the normal developer tools, and on recent versions merely typing `git` will prompt you to install the developer tools.
-> On Windows, these commands can be downloaded [here](https://git-scm.com/downloads).
-> There are also a number of GUI tools out there for handling `git`.
-> You may use whatever you want.
+-  The remainder of these steps assume you're using the `git` command on the command-line.
+-  On Linux, this should be available through your package manager if it isn't already installed.
+-  On Mac, `git` is bundled with the normal developer tools, and on recent versions merely typing `git` will prompt you to install the developer tools.
+-  On Windows, these commands can be downloaded [here](https://git-scm.com/downloads).
+-  There are also a number of GUI tools out there for handling `git`. For Windows, you can download [Github GUI](https://desktop.github.com/) from the given link.
+
+<br/>
+
+---
+ ### **Note: (Cloning repo with Github GUI)** 
+
+Upon downloading the Github GUI, you can go to github, click on the green Code option and then press the button _'Open with Github Desktop'_ as shown in the picture below:
+![Github GUI clone](readme_files/Github_GUI_clone.png)
+The Github GUI will ask you if you want to work on the main repo or your personal repo. Select to work on your personal repo and click ok. This will save the repo to your local computer.
+
+---
+<br/>
+<br/>
 
 Go to your main GitHub page (should be `github.com/your_username`), and click the `Repositories` tab.
 Your fork should be listed here.
